@@ -1,0 +1,47 @@
+.background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
+body {
+    font-family: Arial, sans-serif;
+    text-align: left;
+    padding: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    display: flex;
+    justify-content: start;
+
+}
+
+button:hover {
+    background-color: darkblue;
+}
+
+img {
+    margin-top: 20px;
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+   display: flex;
+   justify-content: start;
+
+}
+
+p {
+    font-size: 18px;
+    margin-top: 10px;
+}
